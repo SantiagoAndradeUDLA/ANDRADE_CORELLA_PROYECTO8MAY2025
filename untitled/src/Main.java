@@ -40,6 +40,6 @@ public class Main {
         System.out.println("\n TOTAL acumulado entre todas las ciudades: " + totalGeneral + " l/m²");
 
         promedioGeneral /= ciudades.length;
-        System.out.println(" PROMEDIO general mensual entre todas las ciudades: " + promedioGeneral + " l/m²");
+        System.out.println(" PROMEDIO  general mensual entre todas las ciudades: " + promedioGeneral + " l/m²");
     }
 }
