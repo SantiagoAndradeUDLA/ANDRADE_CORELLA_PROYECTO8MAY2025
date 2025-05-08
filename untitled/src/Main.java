@@ -16,13 +16,12 @@ public class Main {
             System.out.println("La lluvia en " + meses[i] + " es: " + lluvia[i] + " l/m²");
 
             total +=  lluvia[i];
-
-            prom = total/12;
-
-            System.out.println("total lluvia acumulada = " + total);
-            System.out.println(("el promedio de lluvia mansual = " + prom ));
-
         }
+
+        prom = total/12;
+
+        System.out.println("total lluvia acumulada = " + total);
+        System.out.println(("el promedio de lluvia mansual = " + prom ));
 
     }
 }
